@@ -1,0 +1,16 @@
+li {
+  color: #3715b4;
+  border: 2px dashed #ff0000;
+}
+h1 {
+  font-size: 50px;
+  color: #4fdcff;
+  border-color: #3aff3a;
+  border-width: 8px;
+  border-style: dotted;
+}
+body {
+  background-image: url("https://lh3.googleusercontent.com/p/AF1QipMXY0TLwNj0I4ue6NFZnoqUZoaoh-B17vp-EwIu=s680-w680-h510");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
