@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Formulario de astronauta</title>
+  </head>
+  <h3><strong>Liga dos Astronautas</strong></h3>
+  <body>
+    <form>
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" /> <br />
+      <label for="Email">Email</label>
+      <input type="email" id="email" name="email" />
+      <label for="pwd">- Senha</label>
+      <input type="password" id="pwd" name="pwd" />
+      <br />
+      <label for="data">Data de nascimento</label>
+      <input type="date" id="data" min="1950-00-00" />
+      <label for="foto">- Foto</label>
+      <input type="file" id="foto" />
+      <br />
+      <label for="Nacionalidade">Nacionalidade</label>
+      <select name="Nacionalidade" id="Nacionalidade">
+        Nacionalidade
+
+        <option value="Russo">Russo</option>
+        <option value="Brasileiro">Brasileiro</option>
+        <option value="Norte-Americado">Norte-Americado</option>
+      </select>
+      <label for="gender">- Genero</label>
+      <input type="radio" name="gender" value="Feminino" />F
+      <input type="radio" name="gender" value="Masculino" />M <br />
+      <br />
+      <label for="Inteligencia">Principais qualidades</label>
+      <br />
+      <input type="checkbox" name="Inteligencia" id="Inteligencia" />
+      Inteligencia
+      <input type="checkbox" name="Resiliencia" id="Resiliencia" />Resiliencia
+      <input type="checkbox" name="Preparo fisico" id="Preparo-fisico" />Preparo
+      fisico <input type="checkbox" name="Educação" id="educacao" />Educação
+      <br />
+      <br />
+      <textarea name="mensagem" id="msg" cols="30" rows="10">
+Porque gostaria de ser um astronauta?'</textarea
+      >
+      <br />
+      <br />
+      <button type="button" onclick="alert('Formulario Completo!')">
+        Enviar
+      </button>
+    </form>
+  </body>
+</html>
