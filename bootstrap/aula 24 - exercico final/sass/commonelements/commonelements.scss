@@ -1,0 +1,106 @@
+.header {
+  font-size: 12px;
+  font-weight: bold;
+  a {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      color: $link-hover;
+    }
+  }
+}
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.arrowdown {
+  display: inline-block;
+  width: 90px;
+  margin-top: 5px;
+}
+.logopc {
+  width: 240px;
+  margin-left: -10px;
+  margin-right: 0px;
+}
+#button {
+  padding: $padding-button;
+}
+.downloadDesc {
+  background-color: black;
+  height: 85vh;
+  padding-top: 240px;
+
+  .a {
+    text-decoration: none;
+    color: rgb(168, 166, 166);
+    border-bottom: 1px solid white;
+
+    &:hover {
+      border-bottom: 1px solid rgb(168, 166, 166);
+      color: $link-hover;
+    }
+  }
+
+  .button {
+    border: 2px solid white;
+    margin-right: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(11px);
+    -webkit-backdrop-filter: blur(11px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+}
+
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      color: $link-hover;
+    }
+  }
+  .copyOBC {
+    color: $copy-color;
+  }
+}
+
+// media query
+
+@media (max-width: 449px) {
+  .downloadDesc {
+    button {
+      margin: 10px 0px;
+    }
+  }
+}
+
+@media (max-width: 405px) {
+  .logopc {
+    width: 180px;
+    margin-top: 15px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .logopc {
+    width: 150px;
+    margin-top: 15px;
+  }
+}
